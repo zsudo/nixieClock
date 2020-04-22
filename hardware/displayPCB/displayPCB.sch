@@ -1,0 +1,71 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Nixie Tube Display"
+Date "2020-04-22"
+Rev "1.0.0"
+Comp "zsudo"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Nixie:IN-12B NX_HOUR2
+U 1 1 5EA0B007
+P 3700 2600
+F 0 "NX_HOUR2" V 3650 1897 45  0000 R CNN
+F 1 "IN-12B" H 3700 2600 45  0001 L BNN
+F 2 "nixies-us_IN-12" H 3730 2750 20  0001 C CNN
+F 3 "" H 3700 2600 50  0001 C CNN
+	1    3700 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Nixie:IN-12B NX_HOUR1
+U 1 1 5EA0F177
+P 5550 2600
+F 0 "NX_HOUR1" V 5500 1897 45  0000 R CNN
+F 1 "IN-12B" H 5550 2600 45  0001 L BNN
+F 2 "nixies-us_IN-12" H 5580 2750 20  0001 C CNN
+F 3 "" H 5550 2600 50  0001 C CNN
+	1    5550 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Nixie:IN-12B NX_MIN1
+U 1 1 5EA10DEA
+P 7550 2600
+F 0 "NX_MIN1" V 7500 1897 45  0000 R CNN
+F 1 "IN-12B" H 7550 2600 45  0001 L BNN
+F 2 "nixies-us_IN-12" H 7580 2750 20  0001 C CNN
+F 3 "" H 7550 2600 50  0001 C CNN
+	1    7550 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Nixie:IN-12B NX_MIN2
+U 1 1 5EA11C70
+P 9450 2600
+F 0 "NX_MIN2" V 9400 1897 45  0000 R CNN
+F 1 "IN-12B" H 9450 2600 45  0001 L BNN
+F 2 "nixies-us_IN-12" H 9480 2750 20  0001 C CNN
+F 3 "" H 9450 2600 50  0001 C CNN
+	1    9450 2600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R_ANMIN2
+U 1 1 5EA15DD4
+P 9450 2050
+F 0 "R_ANMIN2" H 9520 2096 50  0000 L CNN
+F 1 "16kOhm" H 9520 2005 50  0000 L CNN
+F 2 "" V 9380 2050 50  0001 C CNN
+F 3 "~" H 9450 2050 50  0001 C CNN
+	1    9450 2050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

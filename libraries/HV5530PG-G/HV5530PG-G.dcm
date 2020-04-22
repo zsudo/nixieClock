@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HV5530PG-G
+D Serial to Parallel Logic Converters 300V 32Ch Open D Out
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005851A.pdf
+$ENDCMP
+#
+#End Doc Library
